@@ -1,13 +1,3 @@
-<!--
-Sync Impact Report
-Version change: unversioned scaffold → 1.0.0 (initial constitution draft)
-Modified principles: none. The five placeholder slots are now defined.
-Added sections: Product Scope and Development Workflow replace scaffold placeholders.
-Removed sections: none.
-Follow-up: replace the ratification TODO with the actual approval date after
-the project owner approves. Remove this report before committing the constitution.
--->
-
 # Mini Todo List Constitution
 
 ## Core Principles
@@ -94,4 +84,4 @@ If Clarify finds no open questions, record that outcome for approval.
   other non-semantic corrections. Preserve the original ratification date and
   update the amendment date when the constitution changes.
 
-**Version**: 1.0.0 | **Ratified**: TODO(RATIFICATION_DATE) pending project owner approval | **Last Amended**: 2026-11-21
+**Version**: 1.0.0 | **Ratified**: 2026-11-21 | **Last Amended**: 2026-11-21
