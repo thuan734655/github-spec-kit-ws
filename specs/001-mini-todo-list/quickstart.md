@@ -38,4 +38,4 @@ trials. [Expo release-build testing](https://docs.expo.dev/guides/using-e2e/)
 
 Record device or simulator model, iOS version, build, observations and outcome
 for each check. The requirements checklist remains pending until the recorded
-results verify all five success criteria.
+results verify all five success criteria. Record those results before requesting Implement approval.

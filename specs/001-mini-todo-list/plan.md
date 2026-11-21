@@ -2,6 +2,8 @@
 
 **Branch**: `main` | **Feature directory**: `001-mini-todo-list` | **Date**: 2026-11-21 | **Spec**: [Approved specification](spec.md)
 
+**Status**: Approved
+
 **Input**: Approved specification, Clarify decisions, and [constitution](../../.specify/memory/constitution.md).
 
 ## Summary
@@ -20,7 +22,7 @@ AsyncStorage. Preserve the last saved view until a write succeeds.
 | Testing | Jest with the Expo preset for domain and persistence behavior, strict type check, and manual iOS acceptance |
 | Target | Small and large iPhone layouts on iOS versions supported by the selected Expo SDK |
 | Project type | Single-screen iOS mobile app with one local list |
-| Performance and acceptance | 4 of 5 first-time users add a task within 30 seconds. All 20 sample tasks are reachable on both screen sizes. See [validation guide](quickstart.md) for remaining targets. |
+| Performance and acceptance | At least 4 of 5 first-time users add a task without assistance within 30 seconds of opening the list. All 20 sample tasks are reachable on both screen sizes. See [validation guide](quickstart.md) for remaining targets. |
 | Constraints | No navigation dependency is needed for a single screen. Backend, authentication, notifications, categories, due dates and cloud sync are outside scope. |
 
 Select and pin a supported stable Expo SDK at scaffold time alongside its
@@ -36,7 +38,7 @@ installation choice within this plan, subject to the compatibility checks in
 | Simple separation of UI, rules and storage | Pass | One screen and one hook coordinate pure operations and a single adapter. |
 | Reliability and validation | Pass | Load and write errors preserve data. Tests cover rejection and retry. |
 | iOS accessibility and usability | Pass | Safe areas, keyboard access, VoiceOver and 44 × 44 point targets have acceptance checks. |
-| Scope, testing and stage approvals | Pass | Scope matches the specification. Runtime acceptance remains pending. Plan requires approval before Tasks. |
+| Scope, testing and stage approvals | Pass | Scope matches the specification. Runtime acceptance remains pending. The project owner approved Plan. |
 
 ## Project Structure
 
