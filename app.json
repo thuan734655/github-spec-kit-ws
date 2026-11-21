@@ -1,0 +1,17 @@
+{
+  "expo": {
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "version": "1.0.0",
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.workshop.minitodolist"
+    },
+    "platforms": [
+      "ios"
+    ],
+    "slug": "mini-todo-list",
+    "userInterfaceStyle": "light",
+    "name": "Mini Todo List"
+  }
+}
